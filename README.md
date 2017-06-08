@@ -12,9 +12,9 @@ Start an `gotrust` node and and the app using meteor and open http://localhost:3
 
     $ gotrust --rpccorsdomain "http://localhost:3000" --rpc --unlock <your account>
 
-Starting the wallet dapp using [Meteor](https://meteor.com/install)
+Starting the wallet trust using [Meteor](https://meteor.com/install)
 
-    $ cd meteor-dapp-wallet/app
+    $ cd meteor-trust-wallet/app
     $ meteor
 
 Go to http://localhost:3000
@@ -27,8 +27,8 @@ To create a build version of your app run:
     // install meteor-build-client
     $ npm install -g meteor-build-client
 
-    // bundle dapp
-    $ cd meteor-dapp-wallet/app
+    // bundle trust
+    $ cd meteor-trust-wallet/app
     $ meteor-build-client ../build --path ""
 
 This will generate the files in the `../build` folder. Double click the index.html to start the app.
