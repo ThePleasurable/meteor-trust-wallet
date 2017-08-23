@@ -1,3 +1,4 @@
+![trust-tech.org](trust-tech.jpg)
 # Trustmachine Wallet Trustapp
 
 The Trustmachine wallet.
